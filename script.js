@@ -5,7 +5,7 @@ function startGame() {
 
   do {
     if (counter >= 10) {
-      alert("Maximum guess limit reached! Game Over!");
+      alert(`Maximum guess limit reached! Correct Number is ${numberToGuess} Game Over!`);
       break;
     }
     counter++;
